@@ -1,5 +1,7 @@
 package website
 
+// import scala.util.Success
+
 // import org.scalajs.dom.ext.Ajax
 
 /* Note: The purpose of this file is to prevent dead-code elimination
@@ -12,6 +14,6 @@ package website
 object Main {
 
   def main(args: Array[String]): Unit = {
-    // Ajax.get("") // doesn't help
+    //Success("foo") // does not help
   }
 }

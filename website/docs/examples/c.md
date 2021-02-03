@@ -2,19 +2,10 @@
 title: C
 ---
 
-
-<div class = "mdoc-example">
-
 ```scala mdoc:js
-println("ye")
+println("c1")
 ```
 
-</div>
-
-<div class = "mdoc-example">
-
 ```scala mdoc:js
-println("ya")
+println("c2")
 ```
-
-</div>
