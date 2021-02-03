@@ -11,15 +11,15 @@ const siteConfig = {
   projectName: 'Laminar',
   organizationName: 'raquo',
   headerLinks: [
-    { doc: 'documentation', label: 'Docs' },
-    { doc: 'examples/hello-world', label: 'Examples' },
-    { doc: 'resources', label: 'Resources' },
-    { blog: true, label: 'News' }
+    // { doc: 'documentation', label: 'Docs' },
+    { doc: 'examples/a', label: 'Examples' },
+    // { doc: 'resources', label: 'Resources' },
+    // { blog: true, label: 'News' }
   ],
   stylesheets: [
     // Used for Material UI web components example
-    "https://fonts.googleapis.com/css?family=Material+Icons&display=block",
-    "https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+    // "https://fonts.googleapis.com/css?family=Material+Icons&display=block",
+    // "https://fonts.googleapis.com/css?family=Roboto:300,400,500"
   ],
   blogSidebarTitle: { default: 'Recent News', all: 'All News' },
 

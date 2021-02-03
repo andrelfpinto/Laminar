@@ -1,6 +1,6 @@
 package website
 
-import webcomponents.material
+// import org.scalajs.dom.ext.Ajax
 
 /* Note: The purpose of this file is to prevent dead-code elimination
  *       of JS dependencies required by the examples in the website
@@ -12,8 +12,6 @@ import webcomponents.material
 object Main {
 
   def main(args: Array[String]): Unit = {
-    val _ = material.Button
-    val _ = material.LinearProgressBar
-    val _ = material.Slider
+    // Ajax.get("") // doesn't help
   }
 }

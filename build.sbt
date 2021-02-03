@@ -23,9 +23,6 @@ lazy val websiteJS = project
     },
     scalaJSUseMainModuleInitializer := true,
     npmDependencies in Compile ++= Seq(
-      "@material/mwc-button" -> "0.18.0",
-      "@material/mwc-linear-progress" -> "0.18.0",
-      "@material/mwc-slider" -> "0.18.0"
     )
   )
   .enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin)
@@ -54,10 +51,6 @@ lazy val laminar = project.in(file("."))
   .enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin)
   .settings(
     libraryDependencies ++= Seq(
-      "com.raquo" %%% "airstream" % "0.11.0",
-      "com.raquo" %%% "domtypes" % "0.10.1",
-      "com.raquo" %%% "domtestutils" % "0.12.0" % Test,
-      "org.scalatest" %%% "scalatest" % "3.2.0" % Test,
     ),
 
     scalacOptions ++= Seq("-deprecation", "-feature", "-language:higherKinds", "-language:implicitConversions"),
